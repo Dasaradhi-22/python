@@ -1,5 +1,5 @@
 try:
-    file = open("sample","r")
+    file = open("sample.txt","r")
     temp=file.read()
     print(temp)
 except FileNotFoundError:
